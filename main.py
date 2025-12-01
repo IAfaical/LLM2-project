@@ -1,5 +1,5 @@
 
-from transdorers import pipeline
+from transformers import pipeline
 cls = pipeline("sentimemnt-analysis")
 cls("i hate eating baban")
 
